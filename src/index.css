@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    button {
+        @apply  text-gray-300 bg-green-800 rounded-3xl py-3 px-8 font-medium hover:bg-transparent hover:border-gray-900 duration-300 hover:text-gray-900 hover:border  border-transparent
+
+    }
+}
+
+body{
+    @apply box-border overflow-x-hidden w-screen font-poppin 
+
+    }
+    .bg{
+        background-image: url(./Assets//bg.jpg);
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    
